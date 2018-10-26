@@ -22,8 +22,9 @@
           <div class="timestamps" v-for="timestamp in timestamps">{{timestamp}}</div>
         </div>
       </div>
-      <input-component :placeholder="placeholder" @add-note="addNote"></input-component>
+      <input-component :placeholder="placeholder"></input-component>
     </div>
+      <note-count-component></note-count-component>
   </div>
 
   <script src="https://unpkg.com/vue"></script>
