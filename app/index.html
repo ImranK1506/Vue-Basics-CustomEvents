@@ -15,12 +15,14 @@
       <div class="columns">
         <div class="column has-text-centered">
           <strong>Notes</strong>
+          <div class="notes" v-for="note in notes">{{note}}</div>
         </div>
         <div class="column has-text-centered">
           <strong>Timestamp</strong>
+          <div class="timestamps" v-for="timestamp in timestamps">{{timestamp}}</div>
         </div>
       </div>
-      <input-component></input-component>
+      <input-component :placeholder="placeholder" @add-note="addNote"></input-component>
     </div>
   </div>
 

@@ -1,6 +1,6 @@
 # Fullstack Vue
 
-## Custom Events- Note taking App
+## Custom Events - Note taking App
 
 1. Ensure you have `npm` installed.
 
